@@ -6,11 +6,6 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.integer :price_in_cents
       t.datetime :created_at
       t.datetime :updated_at
-<<<<<<< HEAD
-
-      
-=======
->>>>>>> acb5c8df60eeb117d92649d4353f2f439d3174c8
     end
   end
 end
