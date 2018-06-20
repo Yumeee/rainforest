@@ -1,4 +1,8 @@
 <section class="products">
+    <div class="new_product_button">
+      <button><%= link_to("New Product", new_product_url) %></button>
+    </div>
+
   <% @products.each do |product| %>
     <div class="product-card">
       <ul>

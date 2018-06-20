@@ -6,6 +6,7 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.integer :price_in_cents
       t.datetime :created_at
       t.datetime :updated_at
+
     end
   end
 end

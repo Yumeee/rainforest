@@ -11,3 +11,4 @@ Product.create(name: "Mug", description: "Medium size Tigger coffee mug", price_
 Product.create(name: "iPhone 7", description: "Apple product", price_in_cents: 50000, url: "https://cdn.shopify.com/s/files/1/1043/3082/products/iPhone_7_Black_1024x1024_2ebad569-972a-48c0-aab5-d199a68e707a_1024x1024.jpeg?v=1519090803")
 Product.create(name: "General Assembly Notebook", description: "Dotted notebook", price_in_cents: 250, url: "http://shop.cooperhewitt.org/common/images/products/main/FIELD_NOTES_FRONT.jpg")
 Product.create(name: "Glasses Case", description: "Blue", price_in_cents: 1000, url: "https://www.scojo.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/r/tribeca_case_web_10.jpg")
+Product.create(name: "Peanut Butter", description: "Peanut butter with Reese's pieces", price_in_cents: 450, url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTACHLXHoTlVGQ_FiyxZ4c0quxdWoamlUvQFdfaf86CzgK6HiAs")
