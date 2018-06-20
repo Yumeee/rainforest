@@ -16,6 +16,9 @@
         <%= link_to(image_tag("leaf.png"), products_url) %>
       </div>
     </header>
+    <% if flash[:notice] %>
+      <p class="notice"><%= flash[:notice] %></p>
+    <% end %>
     <%= yield %>
   </body>
 </html>
