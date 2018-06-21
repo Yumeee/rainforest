@@ -11,10 +11,12 @@
 
   <body>
     <header class="logo">
+      <%= link_to(products_path) do %>
       <h1>Rainforest</h1>
       <div class="leaf-logo">
-        <%= link_to(image_tag("leaf.png"), products_url) %>
+        <%= image_tag("leaf.png") %>
       </div>
+      <% end %>
     </header>
     <% if flash[:notice] %>
       <p class="notice"><%= flash[:notice] %></p>
